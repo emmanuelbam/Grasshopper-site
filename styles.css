@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: fit;
+}
+
+body {
+  background-color: #fcfcfc;
+  font-family: "GT America", Helvetica, arial, sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.top-text {
+  background-color: #45c14e;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  margin-left: 25%;
+
+}
+
+ .nav-link:hover {
+  color: black;
+  cursor: pointer;
+} 
+
+.collapse{
+  font-family: "GT America", Helvetica, arial, sans-serif;
+  font-size: 17px;
+  color: #b3adb7;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link{
+  color: #b3adb7;
+}
+.sign-up{
+  padding-left: 300px;
+  
+}
+.top-text-text {
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 550;
+}
+.hero-container {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.hero-title {
+  font-size: 1px;
+  line-height: 46px;
+  font-weight: 10px;
+}
+.hero-btn {
+  background-color: #45c14e;
+  color: #ffffff;
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 40px;
+  margin-top: 18px;
+  font-weight: 500;
+}
+
+#hill-image{
+  background-image: url(https://grasshopper.app/assets/static/images/hero/hero__background-hills.svg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.hero-subtitle-options-wrapper {
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  float: right;
+}
+.hero-subtitle-options-wrapper {
+  display: inline-flex;
+  position: relative;
+  animation: move 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  font-size: 25px;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    bottom: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    bottom: -150px;
+  }
+  80% {
+    top: -0px;
+  }
+}
+
+.device-group{
+  margin-top: -30%;
+}
+
+.tree-dark{
+  background-image: url("https://grasshopper.app/assets/static/images/hero/hero__tree-dark.svg");
+  background-repeat: no-repeat;
+  background-size: 240px;
+  width: 20%;
+  height: 60%;
+  top:80%;
+  left:-2%;
+  position: absolute;  
+}
+.skinny-tree{
+  background-image: url("https://grasshopper.app/assets/static/images/hero/hero__tree-skinny.svg");
+  width: 90vw;
+  position: absolute;
+  height: 50vh;
+  left: 15%;
+  top:85%;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+.bush-light{
+background-image: url("https://grasshopper.app/assets/static/images/hero/hero__bush-light.svg");
+width: 40vw;
+height: 30vh;
+background-repeat: no-repeat;
+position: relative;
+left: 39%;
+margin-top: 25%;
+z-index: 2;
+}
+.bush-dark{
+  background-image: url("https://grasshopper.app/assets/static/images/hero/hero__bush-dark.svg");
+  width: 30vw;
+  height: 20vh;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 45%;
+  margin-top: -120px;
+  z-index: 4;
+  
+}
+.macbook {
+  background-image: url("https://grasshopper.app/assets/static/images/hero/hero__macbook.png");
+  width: 60vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  position: absolute;
+  margin-left: 30%;
+  
+}
+.pixel{
+  background-image: url("	https://grasshopper.app/assets/static/images/hero/hero__pixel.png");
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 240px;
+  position: absolute;
+  margin-left: 59%;
+  margin-top: -17%;
+  z-index: 3;
+}
+.first-grasshopper{
+  background-image: url("https://grasshopper.app/assets/static/images/hero/hero__grasshopper.svg");
+  width: 80vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 440px;
+  margin-left: 60%;
+}
+.touts-container {
+  margin-top: 0%;
+}
+.section-tuots-title {
+  margin-left: 30%;
+}
+.section-touts-group {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 7%;
+  padding-bottom: 9%;
+  text-align: center;
+}
+.section-touts-item-body{
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.section-stories-header {
+  margin-left: 35%;
+}  
+
+/* carousel show side by side */
+/* .carousel-item{
+   width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  counter-increment: carousel-item;
+}
+.carousel-item:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-item);
+  line-height: 200px;
+  font-size: 80px;
+  color: white; 
+} */
+.section-column-container {
+  margin-top: 10%;
+  background-color: #4de8e3;
+}
+.section-column-title {
+  margin-left: 36%;
+  padding-top: 6%;
+}
+.section-column-body {
+  text-align: center;
+  margin-top: 3%;
+}
+.image-group {
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  margin-top: -15%;
+  margin-left: 4%;
+  margin-right: 3%;
+  padding-bottom: 8%;
+}
+.section-carousle-title {
+  margin-left: 30%;
+  margin-top: 16%;
+}
+#carousel-indicators{
+  width: 30%;
+  height: 100%;
+  margin: auto;
+}
+.carousel-indicators li{
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  padding: 3px;
+  position: relative;
+  margin: 0 15px;
+  background-color: #01334c;
+  color: #01334c;
+  opacity: 1;
+}
+.carousel-indicators li:after{
+  border-radius: 50%;
+  padding: 10px;
+  border: 3px solid #587c86;
+  position: absolute;
+  content: "";
+  top: -7px;
+  bottom: -7px;
+  right: -7px;
+}
+.carousel-indicators li.active{
+  background-color: white;
+}
+.first-box{
+  background-color: #ddf9cb;
+  width: 50%;
+  height: 20%;
+}
+.section-inview-container {
+  margin-top: 5%;
+}
+.section-inview-title {
+  margin-left: 17%;
+  
+}
+@keyframes move-right{
+   from{right: 0%;}
+   to{right:100%;}
+}
+@keyframes move-left-slow {
+  from{left: 0%;}
+  to{left: 100%;}
+}
+@keyframes move-right-third{
+  from{right: 0%;}
+  to{right: 100%;}
+}
+.content-inview{
+  position: relative;
+  animation: move-right 18s linear infinite;
+}
+.content-inview-second{
+ position: relative;
+ animation: move-left-slow 18s linear infinite;
+}
+.content-inview-third{
+  position: relative;
+  animation: move-right-third 19s linear infinite;
+}
+.content-inview{
+  border-radius: 30px;
+  background-color: #dff8ec;
+  padding: 10px;
+  /* display: inline-block; */
+  width: 200%;
+  margin: 10px 5px;
+  text-align: center;
+  line-height: 90%;
+  padding: 10% 20%;
+  font-weight: 500;
+  font-size: 120%;
+}
+.marquee{
+  float: left;
+  width: 10%;
+  display: flex;
+}
+.second-marquee{
+  float: left;
+  width: 10%;
+  display: flex;
+  margin-left: -25%;
+}
+.thrid-marquee{
+  /* float: left; */
+  width: 10%;
+  display: flex;
+}
+.inview-content{
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  
+}
+.content-inview-second{
+   border-radius: 30px;
+  background-color: #dff8ec;
+  padding: 10px;
+  /* display: inline-block; */
+  width: fit-content;
+  margin: 10px 5px;
+  text-align: center;
+  line-height: 90%;
+  padding: 10% 20%;
+  font-weight: 500;
+  font-size: 120%;
+}
+.content-inview-third{
+ border-radius: 30px;
+  background-color: #dff8ec;
+  padding: 10px;
+  /* display: inline-block; */
+  width: fit-content;
+  margin: 10px 5px;
+  text-align: center;
+  line-height: 90%;
+  padding: 10% 20%;
+  font-weight: 500;
+  font-size: 120%;
+}
+.section-get-started {
+  background-color: #4de8e3;
+  margin-top: 5 %;
+  height: 450px;
+  padding: 110px 180px 0px 180px;
+  display: flex;
+  justify-content: space-between;
+  /* padding-bottom: 8%; */
+  /* position: relative; */
+}
+@keyframes move-right-cloud{
+   from{right:0%;}
+   to{right:100%;}
+}
+@keyframes move-left-cloud{
+   from{left:0%;}
+   to{left:100%;}
+}
+.first-cloud{
+  background-image:  url("https://grasshopper.app/assets/static/images/section-get-started/section--get-started__cloud.svg");
+  width: 20%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  position: absolute;
+  float: top;
+  animation: move-right-cloud 80s infinite;
+}
+.second-cloud{
+  background-image:  url("https://grasshopper.app/assets/static/images/section-get-started/section--get-started__cloud.svg");
+  width: 20%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  position: absolute;
+  float: center;
+  margin-top: 40px;
+  margin-left: 10%;
+  animation: move-left-cloud 70s infinite;
+}
+.third-cloud{
+  background-image: url("https://grasshopper.app/assets/static/images/section-get-started/section--get-started__cloud.svg");
+  width: 20%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  position: absolute;
+  align-items: bottom;
+  margin-left: 20%;
+  margin-top: 50px;
+  animation: move-right-cloud 78s infinite;
+}
+.section-get-started-title {
+  /* margin-left: 16%; */
+  /* padding-top: 11%; */
+  line-height: 2px;
+  padding-bottom: 20px;
+  /* width: 40%; */
+}
+.get-started-btn {
+  background-color: #45c14e;
+  color: #ffffff;
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 50px;
+  /* margin-top: 19px; */
+  font-weight: 500;
+}
+.get-started-btn-div {
+  /* margin-left: 16%; */
+  /* margin-top: 2%; */
+  /* width: 40%; */
+  display: flex;
+  align-items: center;
+}
+.play-it-pic {
+  height: auto;
+  width: 170px;
+}
+.play-it {
+  margin-left: 32%;
+  margin-top: -4%;
+}
+.footer-container {
+  background-color: #00324b;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+  
+}
+.footer-content {
+  display: flex;
+  list-style: none;
+  margin-right: 20%;
+  margin-left: 15%;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.first-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.second-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.last-content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.footer-log {
+  margin-left: 47%;
+  margin-top: 6%;
+  padding-bottom: 4%;
+}
+.section-get-started-box {
+  max-width: 500px;
+  z-index: 999;
+}
+.get-started-hopper-img {
+  padding-top: 70px;
+}
+.get-started-hopper-img img {
+  width: 100%;
+}
+@media (max-width: 720px){
+    .section-touts-group{
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+       margin-bottom: 15%;
+    }
+     .hero-background-image{
+       width: max(80%, 400%);
+       margin-top: 50%;
+     }
+     .hero-title{
+      margin: auto;
+     }
+
+     /* .bush-group{
+      display: none;
+     } */
+}
+@media (max-width: 988px){
+   #NavBar{
+    background-color: #01334c;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 100vw;
+    max-height: 100vh;
+   }
+   .nav-link{
+    color: #dff8eb;
+   }
+    .hero-background-image{
+       width: max(50%, 400%);
+       margin-right: 3%;
+     }
+     .tree-dark{
+      width: max(50%, 400%);
+     }
+     .skinny-tree{
+      width: max(50%, 400%);
+     }
+     .bush-light{
+      width: max(50%, 400%);
+     }
+     .bush-dark{
+      width: max(50%, 400%);
+     }
+     .macbook{
+      width: max(50%, 400%);
+     }
+     .pixel{
+      width: max(50%, 400%);
+     }
+     .first-grasshopper{
+      width: max(50%, 400%);
+     }
+     .section-touts-group{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 15%;
+ } 
+}
+
+@media (max-width: 1020px){
+  .section-touts-group{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 15%;
+ } 
+ .hero-background-image{
+       width: max(80%, 400%);
+       margin-top: 50%;
+     }
+ /* .bush-group{
+  display: none;
+ } */
+}
