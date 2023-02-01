@@ -483,9 +483,9 @@ z-index: 2;
   list-style: none;
 }
 .footer-log {
-  margin-left: 47%;
-  margin-top: 6%;
-  padding-bottom: 4%;
+ display: flex;
+ justify-content: center;
+ padding: 5%;
 }
 .section-get-started-box {
   max-width: 500px;
@@ -511,10 +511,6 @@ z-index: 2;
      .hero-title{
       margin: auto;
      }
-
-     /* .bush-group{
-      display: none;
-     } */
 }
 @media (max-width: 988px){
    #NavBar{
@@ -539,8 +535,12 @@ z-index: 2;
      .skinny-tree{
       width: max(50%, 400%);
      }
+     .bush-group{
+      overflow-x: hidden;
+     }
      .bush-light{
       width: max(50%, 400%);
+      overflow-x: hidden;
      }
      .bush-dark{
       width: max(50%, 400%);
@@ -553,6 +553,7 @@ z-index: 2;
      }
      .first-grasshopper{
       width: max(50%, 400%);
+      overflow-x: hidden;
      }
      .section-touts-group{
     display: flex;
@@ -560,6 +561,28 @@ z-index: 2;
     gap: 30px;
     margin-bottom: 15%;
  } 
+ .section-inview-title{
+  
+ }
+.marquee{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+ .content-inview{
+  animation: none;
+  transition: none;
+  padding: 25px;
+  width: 200px;
+}
+.content-inview-second{
+  display: none;
+}
+.content-inview-third{
+  display: none;
+}
 }
 
 @media (max-width: 1020px){
@@ -573,7 +596,4 @@ z-index: 2;
        width: max(80%, 400%);
        margin-top: 50%;
      }
- /* .bush-group{
-  display: none;
- } */
 }
