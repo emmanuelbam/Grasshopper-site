@@ -377,8 +377,6 @@ z-index: 2;
   padding: 110px 180px 0px 180px;
   display: flex;
   justify-content: space-between;
-  /* padding-bottom: 8%; */
-  /* position: relative; */
 }
 @keyframes move-right-cloud{
    from{right:0%;}
