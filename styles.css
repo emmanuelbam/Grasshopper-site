@@ -280,6 +280,7 @@ z-index: 2;
 }
 .section-inview-container {
   margin-top: 5%;
+  overflow-x: hidden;
 }
 .section-inview-title {
   margin-left: 17%;
